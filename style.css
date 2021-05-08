@@ -99,6 +99,7 @@ main .sociais .button-facebook{
     background:linear-gradient(to right,#3b5998, #4c91c5);
     text-align: left;
     margin-top: 1em;
+    text-align: center;
 }
 
 main .sociais .button-twitter{
@@ -106,6 +107,7 @@ main .sociais .button-twitter{
     border-radius: 6px;
     background:linear-gradient(to right,#00acee, #77c4ff);
     text-align: left;
+    text-align: center;
 }
 
 main .sociais .button-twitter a {
@@ -117,4 +119,14 @@ main .sociais .button-facebook a{
     color: white;
     text-decoration: none;
     margin: 0 0.1em;
+}
+
+main .sociais .button-twitter:hover{
+    letter-spacing: 0.05em;
+    background:linear-gradient(to right,#77c4ff,#00acee);
+}
+
+main .sociais .button-facebook:hover{
+    letter-spacing: 0.05em;
+    background:linear-gradient(to right, #4c91c5,#3b5998);
 }
